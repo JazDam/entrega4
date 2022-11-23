@@ -37,7 +37,7 @@ const renderPokemon = (data) => {
     `
      <div class="card-content">
         <h2>${name}</h2>    
-        <p>tipo: ${types.map((tipo) => {
+        <p>type: ${types.map((tipo) => {
             return `<span>${tipo.type.name}</span>`;
           })
           .join(", ")}</p>       
